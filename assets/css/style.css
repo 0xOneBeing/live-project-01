@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    color: white;
+  height: 150px;
+  background-image: url("../images/office.jpg");
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: saturation;
+}
+
+ul li {
+  display: inline;
+}
+
+li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.about {
+  padding: 30px 30px 20px;
+
+  /* border: 3px solid red; */
+}
+
+.about-1,
+.about-2 {
+  justify-content: center;
+}
+
+table {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer {
+  padding: 80px !important;
+  background-color: rgba(128, 0, 128, 0.209);
+}
+
+td h2, .page-title {
+    color: rgb(20, 200, 200)
+}
+
+img {
+    width: 100%;
+}
+
+.pl {
+    padding-left: 20px;
+}
+
+.about-2 {
+    width: 400px;
+    margin: 0 auto;
+}
+
+a {
+    color: maroon;
+    text-decoration: none;
+}
